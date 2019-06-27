@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  TheAnswerOfLove
+//  LoveTest
 //
 //  Created by chang sic jung on 26/06/2019.
 //  Copyright © 2019 chang sic jung. All rights reserved.
@@ -15,7 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = .white
+        window?.makeKeyAndVisible()
+        window?.rootViewController = FirstViewController()
+        
         return true
     }
 

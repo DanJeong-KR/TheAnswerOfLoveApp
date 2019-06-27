@@ -18,12 +18,25 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NotoSansKR-Regular.otf</string>
+		<string>Gugi-Regular.ttf</string>
+		<string>Dokdo-Regular.ttf</string>
+		<string>NanumPenScript-Regular.ttf</string>
+		<string>Sunflower-Bold.ttf</string>
+		<string>Sunflower-Light.ttf</string>
+		<string>Sunflower-Medium.ttf</string>
+		<string>tvNBold.otf</string>
+		<string>tvNLight.otf</string>
+		<string>KCC-Kimhoon.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -31,8 +44,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
