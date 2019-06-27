@@ -20,8 +20,9 @@ class CustomSwipeDemoViewController: ZLSwipeableViewController {
     }()
     
     let resetButton: UIButton = {
-        let bt = UIButton(type: .system)
-        bt.backgroundColor = .red
+        let bt = UIButton(type: .custom)
+        bt.setImage(UIImage(named: "reload"), for: .normal)
+        bt.alpha = 0
         bt.layer.cornerRadius = 30
         bt.layer.masksToBounds = true
         bt.addTarget(self, action: #selector(resetButtonDidTapped(_:)), for: .touchUpInside)
@@ -71,11 +72,14 @@ class CustomSwipeDemoViewController: ZLSwipeableViewController {
     }
     
     @objc private func resetButtonDidTapped(_ sender: Any) {
-        navigationController?.popToViewController(navigationController!.viewControllers.first!, animated: true)
+//        navigationController?.popToViewController(navigationController!.viewControllers.first!, animated: true)
+        navigationController?.popToRootViewController(animated: true)
     }
 
     
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
+        
+        currentDevice.isProximityMonitoringEnabled = false
         
         UIView.animateKeyframes(withDuration: 0.7,
                                 delay: 0,
@@ -158,6 +162,7 @@ class CustomSwipeDemoViewController: ZLSwipeableViewController {
                         UIView.animate(withDuration: 1,
                                        animations: {
                                         self.label.alpha = 1
+                                        self.resetButton.alpha = 1
                         })
                     }
                 })
