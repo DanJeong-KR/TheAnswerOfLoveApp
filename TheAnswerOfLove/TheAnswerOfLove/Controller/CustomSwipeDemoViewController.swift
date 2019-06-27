@@ -18,14 +18,20 @@ class CustomSwipeDemoViewController: ZLSwipeableViewController {
         lb.alpha = 0
         return lb
     }()
+    
+    let resetButton: UIButton = {
+        let bt = UIButton(type: .system)
+        bt.backgroundColor = .red
+        bt.layer.cornerRadius = 30
+        bt.layer.masksToBounds = true
+        bt.addTarget(self, action: #selector(resetButtonDidTapped(_:)), for: .touchUpInside)
+        return bt
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addSubview(label)
-        
-        label.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        label.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        configureUIObjects()
 
         leftBarButtonItem.action = #selector(leftBarButtonAction)
         upBarButtonItem.action = #selector(upBarButtonAction)
@@ -51,6 +57,23 @@ class CustomSwipeDemoViewController: ZLSwipeableViewController {
         }
         
     }
+    
+    private func configureUIObjects() {
+        view.addSubview(label)
+        view.addSubview(resetButton)
+        
+        label.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        label.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        
+        resetButton.layout.centerX().centerY(constant: 350)
+        resetButton.widthAnchor.constraint(equalToConstant: 60).isActive = true
+        resetButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
+    }
+    
+    @objc private func resetButtonDidTapped(_ sender: Any) {
+        dismiss(animated: true)
+    }
+
     
     override func viewDidAppear(_ animated: Bool) {
         
