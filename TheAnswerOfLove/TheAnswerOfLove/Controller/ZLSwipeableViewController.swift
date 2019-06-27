@@ -14,7 +14,11 @@ class ZLSwipeableViewController: UIViewController {
 
     var swipeableView: ZLSwipeableView!
     
-    var colors = ["Turquoise", "Green Sea", "Emerald", "Nephritis", "Peter River", "Belize Hole", "Amethyst", "Wisteria", "Wet Asphalt", "Midnight Blue", "Sun Flower", "Orange", "Carrot", "Pumpkin", "Alizarin", "Pomegranate", "Clouds", "Silver", "Concrete", "Asbestos"]
+    
+    
+    var colors = ["Turquoise", "Green Sea", "Emerald", "Nephritis", "Peter River", "Wisteria", "Sun Flower", "Orange", "Carrot", "Pumpkin", "Clouds", "Silver", "Concrete", "Asbestos"]
+    // #colorLiteral(red: 0.9215686275, green: 0.1843137255, blue: 0.02352941176, alpha: 0.6006679687)
+    var heajiColors:[UIColor] = [#colorLiteral(red: 1, green: 0.8, blue: 0.8, alpha: 0.6962221747), #colorLiteral(red: 0.5058823529, green: 0.9254901961, blue: 0.9254901961, alpha: 0.6962221747), #colorLiteral(red: 0.7464812398, green: 0.7100023627, blue: 0.9085438848, alpha: 0.6962221747), #colorLiteral(red: 1, green: 0.9176470588, blue: 0.6549019608, alpha: 0.7976206122), #colorLiteral(red: 0.5962104779, green: 0.9254901961, blue: 0.9254901961, alpha: 0.8036523438), #colorLiteral(red: 0.7803921569, green: 0.9254901961, blue: 0.9333333333, alpha: 0.8036523438), #colorLiteral(red: 1, green: 0.4745098039, blue: 0.4745098039, alpha: 0.6958710938), #colorLiteral(red: 0.768627451, green: 0.8980392157, blue: 0.2196078431, alpha: 0.6958710938) ]
     var colorIndex = 0
     var loadCardsFromXib = false
     
@@ -140,12 +144,12 @@ class ZLSwipeableViewController: UIViewController {
     
     // MARK: ()
     func nextCardView() -> UIView? {
-        if colorIndex >= colors.count {
+        if colorIndex >= heajiColors.count {
             colorIndex = 0
         }
-
         let cardView = CardView(frame: swipeableView.bounds)
-        cardView.backgroundColor = colorForName(colors[colorIndex])
+        // rgb(196, 229, 56)
+        cardView.backgroundColor = heajiColors[(0..<heajiColors.count).randomElement()!]
         colorIndex += 1
 
         if loadCardsFromXib {

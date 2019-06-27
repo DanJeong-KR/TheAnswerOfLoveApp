@@ -22,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         naviVC.navigationBar.isHidden = true
         window?.rootViewController = naviVC
         
+        Thread.sleep(forTimeInterval: 2)
+        
         return true
     }
 }

@@ -12,16 +12,15 @@ class CustomSwipeDemoViewController: ZLSwipeableViewController {
     
     let label: UILabel = {
         let lb = UILabel()
-        lb.text = "뜨거운 것을 원하게 될 것이다"
         lb.font = UIFont(name: "Dokdo-Regular", size: 23)
         lb.translatesAutoresizingMaskIntoConstraints = false
         lb.alpha = 0
         return lb
     }()
     
-    let resetButton: UIButton = {
+    let reloadButton: UIButton = {
         let bt = UIButton(type: .custom)
-        bt.setImage(UIImage(named: "reload"), for: .normal)
+        bt.setImage(UIImage(named: "reload2"), for: .normal)
         bt.alpha = 0
         bt.layer.cornerRadius = 30
         bt.layer.masksToBounds = true
@@ -61,25 +60,34 @@ class CustomSwipeDemoViewController: ZLSwipeableViewController {
     
     private func configureUIObjects() {
         view.addSubview(label)
-        view.addSubview(resetButton)
+        view.addSubview(reloadButton)
         
         label.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         label.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         
-        resetButton.layout.centerX().centerY(constant: 350)
-        resetButton.widthAnchor.constraint(equalToConstant: 60).isActive = true
-        resetButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
+        reloadButton.layout.centerX().centerY(constant: 345)
+        reloadButton.widthAnchor.constraint(equalToConstant: 60).isActive = true
+        reloadButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
     }
     
     @objc private func resetButtonDidTapped(_ sender: Any) {
 //        navigationController?.popToViewController(navigationController!.viewControllers.first!, animated: true)
         navigationController?.popToRootViewController(animated: true)
     }
-
     
     override func viewWillAppear(_ animated: Bool) {
         
+        label.text = answerData[(0..<answerData.count).randomElement()!]
+        
         currentDevice.isProximityMonitoringEnabled = false
+        
+        //
+//        let spinAnimation = CABasicAnimation(keyPath: "transform.rotation")
+//        spinAnimation.duration = 1
+//        spinAnimation.toValue = CGFloat.pi * 2
+//        reloadButton.layer.add(spinAnimation, forKey: "spinAnimation")
+        
+        //
         
         UIView.animateKeyframes(withDuration: 0.7,
                                 delay: 0,
@@ -159,25 +167,39 @@ class CustomSwipeDemoViewController: ZLSwipeableViewController {
                                             })
                 },completion: { param in
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+//                        UIView.animateKeyframes(withDuration: 1,
+//                                                delay: 0,
+//                                                options: [.repeat, .allowUserInteraction],
+//                                                animations: {
+//                                                    self.label.alpha = 1
+//                                                    UIView.addKeyframe(withRelativeStartTime: 0,
+//                                                                       relativeDuration: 0.2,
+//                                                                       animations: {
+//                                                                        self.reloadButton.alpha = 1
+//                                                                        self.reloadButton.transform = CGAffineTransform.init(scaleX: 1.2, y: 1.2)
+//                                                    })
+//                                                    UIView.addKeyframe(withRelativeStartTime: 0.2,
+//                                                                       relativeDuration: 0.8,
+//                                                                       animations: {
+//                                                                        self.reloadButton.alpha = 0.5
+//                                                                        self.reloadButton.transform = CGAffineTransform.identity
+//                                                    })
+//                        })
+                        UIView.animate(withDuration: 1, animations: {
+                            self.label.alpha = 1
+                            self.reloadButton.alpha = 1
+                        })
                         UIView.animate(withDuration: 1,
+                                       delay: 0,
+                                       options: [.repeat, .allowUserInteraction],
                                        animations: {
-                                        self.label.alpha = 1
-                                        self.resetButton.alpha = 1
+                                        self.reloadButton.transform = CGAffineTransform(rotationAngle: .pi / 2)
                         })
                     }
                 })
             })
         })
-        
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            
-        }
-        
-//        UIView.animate(withDuration: 1,
-//                       animations: {
-//                        self.label.alpha = 1
-//        })
+
     }
     
     // MARK: - Actions

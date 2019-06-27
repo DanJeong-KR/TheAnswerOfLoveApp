@@ -12,7 +12,7 @@ class SecondViewController: UIViewController {
     
     let iPhoneImageView: UIImageView = {
         let iv = UIImageView()
-        iv.image = UIImage(named: "iphone")
+        iv.image = UIImage(named: "iphone3")
         iv.alpha = 0
         iv.contentMode = UIImageView.ContentMode.scaleAspectFit
         return iv

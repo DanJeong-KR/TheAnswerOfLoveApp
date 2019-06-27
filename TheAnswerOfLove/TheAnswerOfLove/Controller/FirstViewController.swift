@@ -40,7 +40,6 @@ class FirstViewController: UIViewController {
         """
         return lb
     }()
-    
     let yesButton: UIButton = {
         let bt = UIButton(type: .custom)
         bt.setTitle("네", for: .normal)
@@ -74,24 +73,12 @@ class FirstViewController: UIViewController {
                         self.secondLabel.alpha = 1
         })
         
-        //self.yesButton.alpha = 1
-        UIView.animateKeyframes(withDuration: 1,
-                                delay: 4,
-                                options: [.repeat, .allowUserInteraction],
-                                animations: {
-                                    UIView.addKeyframe(withRelativeStartTime: 0,
-                                                       relativeDuration: 0.2,
-                                                       animations: {
-                                                        self.yesButton.alpha = 1
-                                                        self.yesButton.transform = CGAffineTransform.init(scaleX: 1.2, y: 1.2)
-                                    })
-                                    UIView.addKeyframe(withRelativeStartTime: 0.2,
-                                                       relativeDuration: 0.8,
-                                                       animations: {
-                                                        self.yesButton.alpha = 0.5
-                                                        self.yesButton.transform = CGAffineTransform.identity
-                                    })
-        })
+        if isHeartBitAnimationFirstTime {
+            heartBitAnimation(withDelay: 4)
+            isHeartBitAnimationFirstTime = false
+        } else {
+            heartBitAnimation(withDelay: 0)
+        }
     }
     
     @objc func yesButtonDidTapped(_ sender: Any) {
@@ -113,10 +100,31 @@ class FirstViewController: UIViewController {
         firstLabel.layout.centerX().centerY(constant: -50)
         secondLabel.layout.centerX().top(equalTo: firstLabel.bottomAnchor, constant: 50)
         
-        yesButton.layout.centerX().top(equalTo: secondLabel.bottomAnchor, constant: 20)
+        yesButton.layout.centerX().top(equalTo: secondLabel.bottomAnchor, constant: 50)
         yesButton.widthAnchor.constraint(equalToConstant: 70).isActive = true
         yesButton.heightAnchor.constraint(equalToConstant: 70).isActive = true
         
+    }
+    
+    var isHeartBitAnimationFirstTime = true
+    private func heartBitAnimation(withDelay delay: Double){
+        UIView.animateKeyframes(withDuration: 1,
+                                delay: delay,
+                                options: [.repeat, .allowUserInteraction],
+                                animations: {
+                                    UIView.addKeyframe(withRelativeStartTime: 0,
+                                                       relativeDuration: 0.2,
+                                                       animations: {
+                                                        self.yesButton.alpha = 1
+                                                        self.yesButton.transform = CGAffineTransform.init(scaleX: 1.2, y: 1.2)
+                                    })
+                                    UIView.addKeyframe(withRelativeStartTime: 0.2,
+                                                       relativeDuration: 0.8,
+                                                       animations: {
+                                                        self.yesButton.alpha = 0.5
+                                                        self.yesButton.transform = CGAffineTransform.identity
+                                    })
+        })
     }
 
 }
