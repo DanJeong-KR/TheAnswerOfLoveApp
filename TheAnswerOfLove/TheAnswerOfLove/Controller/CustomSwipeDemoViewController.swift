@@ -71,7 +71,7 @@ class CustomSwipeDemoViewController: ZLSwipeableViewController {
     }
     
     @objc private func resetButtonDidTapped(_ sender: Any) {
-        dismiss(animated: true)
+        navigationController?.popToViewController(navigationController!.viewControllers.first!, animated: true)
     }
 
     

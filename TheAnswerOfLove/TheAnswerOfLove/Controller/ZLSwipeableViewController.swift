@@ -39,7 +39,7 @@ class ZLSwipeableViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.setToolbarHidden(false, animated: false)
+        //navigationController?.setToolbarHidden(false, animated: false)
         view.backgroundColor = UIColor.white
         view.clipsToBounds = true
         

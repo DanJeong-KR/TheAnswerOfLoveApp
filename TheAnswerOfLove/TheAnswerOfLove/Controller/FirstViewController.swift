@@ -8,65 +8,111 @@
 
 import UIKit
 
+let currentDevice: UIDevice = {
+    let dv = UIDevice.current
+    dv.isProximityMonitoringEnabled = false
+    return dv
+}()
+
 class FirstViewController: UIViewController {
     
-    let helpLabel: UILabel = {
+    let firstLabel: UILabel = {
        let lb = UILabel()
         //lb.backgroundColor = .red
         //lb.font = UIFont.boldSystemFont(ofSize: 30)
-        lb.font = UIFont(name: "Sunflower-Medium", size: 20)
+        lb.font = UIFont(name: "Sunflower-Medium", size: 25)
         lb.numberOfLines = 0
         lb.textAlignment = .center
-        lb.text = """
-        이 곳에 손을 대고
-        고민을 이야기 한 후
-        손을 떼세요.
-"""
+        lb.alpha = 0
+        lb.text =
+        """
+        고민을 생각하세요.
+        """
+        return lb
+    }()
+    let secondLabel: UILabel = {
+        let lb = UILabel()
+        //lb.backgroundColor = .red
+        //lb.font = UIFont.boldSystemFont(ofSize: 30)
+        lb.font = UIFont(name: "Sunflower-Medium", size: 25)
+        lb.numberOfLines = 0
+        lb.textAlignment = .center
+        lb.alpha = 0
+        lb.text =
+        """
+        모두 생각 하셨나요?
+        """
         return lb
     }()
     
-    let testButton: UIButton = {
-        let bt = UIButton(type: .system)
-        bt.titleLabel?.text = "test"
-        bt.backgroundColor = .red
-        bt.addTarget(self, action: #selector(buttonDidTapped(_:)), for: .touchUpInside)
+    let yesButton: UIButton = {
+        let bt = UIButton(type: .custom)
+        bt.setTitle("네", for: .normal)
+        bt.setImage(UIImage(named: "heart"), for: .normal)
+        bt.titleLabel?.font = UIFont.boldSystemFont(ofSize: 25)
+        bt.setTitleColor(.black, for: .normal)
+        bt.alpha = 0
+        bt.addTarget(self, action: #selector(yesButtonDidTapped(_:)), for: .touchUpInside)
         return bt
-    }()
-    
-    let imageView: UIImageView = {
-        let iv = UIImageView()
-        iv.image = UIImage(named: "palm")
-        iv.alpha = 0.3
-        iv.contentMode = UIImageView.ContentMode.scaleAspectFit
-        return iv
-    }()
-    
-    let currentDevice: UIDevice = {
-        let dv = UIDevice.current
-        dv.isProximityMonitoringEnabled = true
-        return dv
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.addSubviews([helpLabel, testButton, imageView])
+        view.addSubviews([firstLabel, secondLabel, yesButton])
         setConstraints()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        UIView.animate(withDuration: 1,
+                       animations: {
+                        self.firstLabel.alpha = 1
+        })
         
-        NotificationCenter.default.addObserver(self, selector: #selector(proximityStateDidChange(_:)), name: UIDevice.proximityStateDidChangeNotification, object: nil)
+        UIView.animate(withDuration: 1,
+                       delay: 2,
+                       options: .curveEaseIn,
+                       animations: {
+                        self.secondLabel.alpha = 1
+        })
+        
+        self.yesButton.alpha = 1
+//        UIView.animateKeyframes(withDuration: 1,
+//                                delay: 4,
+//                                options: .repeat,
+//                                animations: {
+//                                    UIView.addKeyframe(withRelativeStartTime: 0,
+//                                                       relativeDuration: 0.2,
+//                                                       animations: {
+//                                                        self.yesButton.alpha = 1
+//                                                        self.yesButton.transform = CGAffineTransform.init(scaleX: 1.2, y: 1.2)
+//                                    })
+//                                    UIView.addKeyframe(withRelativeStartTime: 0.2,
+//                                                       relativeDuration: 0.8,
+//                                                       animations: {
+//                                                        self.yesButton.alpha = 0.5
+//                                                        self.yesButton.transform = CGAffineTransform.identity
+//                                    })
+//        })
     }
     
-    @objc func proximityStateDidChange(_ noti: Notification){
-        if !currentDevice.proximityState {
-            present(CustomSwipeDemoViewController(), animated: true)
-        }
+    @objc func yesButtonDidTapped(_ sender: Any) {
+        print("yesButtonDidTapped")
+        currentDevice.isProximityMonitoringEnabled = true
+        firstLabel.isHidden = true
+        secondLabel.isHidden = true
+        yesButton.isHidden = true
+        
+        navigationController?.pushViewController(SecondViewController(), animated: true)
     }
     
     private func setConstraints(){
-        helpLabel.layout.centerX().centerY(constant: -100)
+        firstLabel.layout.centerX().centerY(constant: -50)
+        secondLabel.layout.centerX().top(equalTo: firstLabel.bottomAnchor, constant: 50)
         
-        testButton.layout.centerX().centerY(constant: -200)
+        yesButton.layout.centerX().top(equalTo: secondLabel.bottomAnchor, constant: 20)
+        yesButton.widthAnchor.constraint(equalToConstant: 70).isActive = true
+        yesButton.heightAnchor.constraint(equalToConstant: 70).isActive = true
         
-        imageView.layout.top().leading().trailing().bottom(constant: -200)
     }
     
     @objc private func buttonDidTapped(_ sender: Any) {
