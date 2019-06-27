@@ -60,27 +60,29 @@ class ZLSwipeableViewController: UIViewController {
         view.addSubview(swipeableView)
         
         // MARK: - View 이동중이라고 콘솔에 알려주는 애들
+        /*
         swipeableView.didStart = {view, location in
-            print("Did start swiping view at location: \(location)")
+            //print("Did start swiping view at location: \(location)")
         }
         swipeableView.swiping = {view, location, translation in
-            print("Swiping at view location: \(location) translation: \(translation)")
+            //print("Swiping at view location: \(location) translation: \(translation)")
         }
         swipeableView.didEnd = {view, location in
-            print("Did end swiping view at location: \(location)")
+            //print("Did end swiping view at location: \(location)")
         }
         swipeableView.didSwipe = {view, direction, vector in
-            print("Did swipe view in direction: \(direction), vector: \(vector)")
+            //print("Did swipe view in direction: \(direction), vector: \(vector)")
         }
         swipeableView.didCancel = {view in
-            print("Did cancel swiping view")
+            //print("Did cancel swiping view")
         }
         swipeableView.didTap = {view, location in
-            print("Did tap at location \(location)")
+            //print("Did tap at location \(location)")
         }
         swipeableView.didDisappear = { view in
-            print("Did disappear swiping view")
+            //print("Did disappear swiping view")
         }
+ */
 
         // MARK: - Cartography 부분 (cocoapod 하던지 하자)
         constrain(swipeableView, view) { view1, view2 in

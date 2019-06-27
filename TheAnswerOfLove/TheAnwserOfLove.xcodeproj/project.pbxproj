@@ -135,11 +135,10 @@
 				8E20004F22C35B9100AD02FE /* Assets.xcassets */,
 				8E20005122C35B9100AD02FE /* LaunchScreen.storyboard */,
 				8E20005422C35B9100AD02FE /* Info.plist */,
-				8E20009922C3861500AD02FE /* Controller */,
-				8E20006922C35DC000AD02FE /* Cartography */,
-				8E20009422C35F0600AD02FE /* FlatColors */,
-				8E2000A122C38FE500AD02FE /* Font */,
 				8E20006822C35D8F00AD02FE /* Other */,
+				8E20009922C3861500AD02FE /* Controller */,
+				8EAD032122C491800043B437 /* Library */,
+				8E2000A122C38FE500AD02FE /* Font */,
 				8E20009C22C387A400AD02FE /* Helpers */,
 			);
 			path = TheAnswerOfLove;
@@ -226,6 +225,15 @@
 				8E2000C122C399F000AD02FE /* KCC-Kimhoon.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		8EAD032122C491800043B437 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8E20006922C35DC000AD02FE /* Cartography */,
+				8E20009422C35F0600AD02FE /* FlatColors */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

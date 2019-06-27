@@ -41,36 +41,24 @@ class FirstViewController: UIViewController {
         return iv
     }()
     
-    let fontArr = ["NotoSansKR-Regular", "Gugi-Regular", "Dokdo-Regular", "NanumPenScript-Regular", "Sunflower-Bold", "Sunflower-Light", "Sunflower-Medium", "tvNBold", "tvNLight", "tvNMedium"]
-
-    var isHandOut = false
-    var isHandIn = false
-    private func configure() {
-        title = ""
-        
-        let currentDevice = UIDevice.current
-        currentDevice.isProximityMonitoringEnabled = true
-        
-        NotificationCenter.default.addObserver(self, selector: #selector(test(_:)), name: UIDevice.proximityStateDidChangeNotification, object: nil)
-    }
-    
-    @objc func test(_ noti: Notification){
-        isHandOut.toggle()
-        print(isHandOut)
-        if !isHandOut {
-            // 여기서 카드 나오게 해야함
-            print("start")
-            present(CustomSwipeDemoViewController(), animated: true)
-            
-        }
-    }
+    let currentDevice: UIDevice = {
+        let dv = UIDevice.current
+        dv.isProximityMonitoringEnabled = true
+        return dv
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubviews([helpLabel, testButton, imageView])
         setConstraints()
         
-        configure()
+        NotificationCenter.default.addObserver(self, selector: #selector(proximityStateDidChange(_:)), name: UIDevice.proximityStateDidChangeNotification, object: nil)
+    }
+    
+    @objc func proximityStateDidChange(_ noti: Notification){
+        if !currentDevice.proximityState {
+            present(CustomSwipeDemoViewController(), animated: true)
+        }
     }
     
     private func setConstraints(){
