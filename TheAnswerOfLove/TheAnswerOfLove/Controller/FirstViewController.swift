@@ -24,7 +24,7 @@ class FirstViewController: UIViewController {
         lb.alpha = 0
         lb.text =
         """
-        사랑에 대해 고민하세요.
+        사랑이 고민이신가요?
         """
         return lb
     }()
@@ -36,7 +36,7 @@ class FirstViewController: UIViewController {
         lb.alpha = 0
         lb.text =
         """
-        모두 생각 하셨나요?
+        먼저 고민을 말해보세요.
         """
         return lb
     }()

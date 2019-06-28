@@ -58,7 +58,7 @@ class SecondViewController: UIViewController {
         handImageView.transform = CGAffineTransform(translationX: -100, y: 0)
         UIView.animate(withDuration: 1.5,
                        delay: 0,
-                       options: .repeat,
+                       options: [.repeat, .curveEaseInOut],
                        animations: {
                         self.handImageView.transform = CGAffineTransform(translationX: 100, y: 0)
         })

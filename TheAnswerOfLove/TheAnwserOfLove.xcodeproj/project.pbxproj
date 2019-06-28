@@ -52,6 +52,7 @@
 		8E2000C222C399F500AD02FE /* KCC-Kimhoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E2000C122C399F000AD02FE /* KCC-Kimhoon.ttf */; };
 		8EAD032322C4B1BF0043B437 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD032222C4B1BF0043B437 /* SecondViewController.swift */; };
 		8EAD032522C4DD4B0043B437 /* AnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD032422C4DD4B0043B437 /* AnswerModel.swift */; };
+		8EAD032722C4F1FE0043B437 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD032622C4F1FE0043B437 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +104,7 @@
 		8E2000C122C399F000AD02FE /* KCC-Kimhoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Kimhoon.ttf"; sourceTree = "<group>"; };
 		8EAD032222C4B1BF0043B437 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8EAD032422C4DD4B0043B437 /* AnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerModel.swift; sourceTree = "<group>"; };
+		8EAD032622C4F1FE0043B437 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				8E20004822C35B8E00AD02FE /* AppDelegate.swift */,
 				8E20004F22C35B9100AD02FE /* Assets.xcassets */,
 				8E20005122C35B9100AD02FE /* LaunchScreen.storyboard */,
+				8EAD032622C4F1FE0043B437 /* Launch Screen.storyboard */,
 				8EAD032422C4DD4B0043B437 /* AnswerModel.swift */,
 				8E20005422C35B9100AD02FE /* Info.plist */,
 				8E20006822C35D8F00AD02FE /* Other */,
@@ -307,6 +310,7 @@
 				8E2000B322C392DF00AD02FE /* Dokdo-Regular.ttf in Resources */,
 				8E2000B422C392E100AD02FE /* NanumPenScript-Regular.ttf in Resources */,
 				8E2000A822C3903A00AD02FE /* NotoSansKR-Regular.otf in Resources */,
+				8EAD032722C4F1FE0043B437 /* Launch Screen.storyboard in Resources */,
 				8E2000B722C392E900AD02FE /* Sunflower-Medium.ttf in Resources */,
 				8E20005022C35B9100AD02FE /* Assets.xcassets in Resources */,
 				8E2000B522C392E500AD02FE /* Sunflower-Bold.ttf in Resources */,
