@@ -18,11 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = .white
         window?.makeKeyAndVisible()
-        let naviVC = UINavigationController(rootViewController: FirstViewController())
-        naviVC.navigationBar.isHidden = true
-        window?.rootViewController = naviVC
+//        let naviVC = UINavigationController(rootViewController: FirstViewController())
+//        naviVC.navigationBar.isHidden = true
+        window?.rootViewController = LaunchViewController()
         
-        Thread.sleep(forTimeInterval: 2)
+        //Thread.sleep(forTimeInterval: 2)
         
         return true
     }
