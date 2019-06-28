@@ -8,6 +8,8 @@
 
 ## <center>Love Ans 앱이 당신을 도와드립니다.</center>
 
+made by 씨기(me!), [어색혜지자](https://github.com/Jeon-heaji)
+
 ---
 
 * # 먼저 당신의 고민을 생각하세요.
