@@ -79,15 +79,8 @@ class CustomSwipeDemoViewController: ZLSwipeableViewController {
         
         label.text = answerData[(0..<answerData.count).randomElement()!]
         
+        
         currentDevice.isProximityMonitoringEnabled = false
-        
-        //
-//        let spinAnimation = CABasicAnimation(keyPath: "transform.rotation")
-//        spinAnimation.duration = 1
-//        spinAnimation.toValue = CGFloat.pi * 2
-//        reloadButton.layer.add(spinAnimation, forKey: "spinAnimation")
-        
-        //
         
         UIView.animateKeyframes(withDuration: 0.7,
                                 delay: 0,
