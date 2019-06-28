@@ -8,7 +8,7 @@
 
 ## <center>Love Ans 앱이 당신을 도와드립니다.</center>
 
-made by 씨기(me!), [어색혜지자](https://github.com/Jeon-heaji)
+made by [씨기](https://github.com/changSic), [어색혜지자](https://github.com/Jeon-heaji)
 
 ---
 
