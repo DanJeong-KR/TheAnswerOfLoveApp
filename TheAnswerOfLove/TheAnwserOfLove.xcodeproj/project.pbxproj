@@ -143,7 +143,7 @@
 				8E20004F22C35B9100AD02FE /* Assets.xcassets */,
 				8E20005122C35B9100AD02FE /* LaunchScreen.storyboard */,
 				8EAD032622C4F1FE0043B437 /* Launch Screen.storyboard */,
-				8EAD032422C4DD4B0043B437 /* AnswerModel.swift */,
+				8EAD032A22C5D9B00043B437 /* Data */,
 				8E20005422C35B9100AD02FE /* Info.plist */,
 				8E20006822C35D8F00AD02FE /* Other */,
 				8E20009922C3861500AD02FE /* Controller */,
@@ -246,6 +246,14 @@
 				8E20009422C35F0600AD02FE /* FlatColors */,
 			);
 			path = Library;
+			sourceTree = "<group>";
+		};
+		8EAD032A22C5D9B00043B437 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD032422C4DD4B0043B437 /* AnswerModel.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
