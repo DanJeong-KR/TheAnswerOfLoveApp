@@ -1,7 +1,7 @@
 # <center>TheAnswerOfLoveApp</center>
 
 
- {% include YouTubeLinks.html id=psAsbYI8l7U %} 
+ [![예제](http://img.youtube.com/vi/psAsbYI8l7U/0.jpg)](https://youtu.be/psAsbYI8l7U)
 
 사랑에 대해 고민하지 않는 사람이 있을까요?
 
