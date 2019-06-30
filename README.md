@@ -1,9 +1,6 @@
 # <center>TheAnswerOfLoveApp</center>
 
-#### Demo
- [![예제](http://img.youtube.com/vi/psAsbYI8l7U/0.jpg)](https://youtu.be/psAsbYI8l7U)
-
-
+#### Demo 영상 (클릭시 YouTube 이동)
  [![LoveAns Demo](http://img.youtube.com/vi/psAsbYI8l7U/0.jpg)](https://youtu.be/psAsbYI8l7U "LoveAns Demo")
 
 사랑에 대해 고민하지 않는 사람이 있을까요?
