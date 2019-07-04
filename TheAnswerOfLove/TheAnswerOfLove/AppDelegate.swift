@@ -21,8 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let naviVC = UINavigationController(rootViewController: FirstViewController())
 //        naviVC.navigationBar.isHidden = true
         window?.rootViewController = LaunchViewController()
-        
-        //Thread.sleep(forTimeInterval: 2)
+        //window?.rootViewController = CustomSwipeDemoViewController()
         
         return true
     }

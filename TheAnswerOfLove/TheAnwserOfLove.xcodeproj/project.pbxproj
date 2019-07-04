@@ -38,7 +38,6 @@
 		8E20009122C35DCE00AD02FE /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20007C22C35DCE00AD02FE /* Expression.swift */; };
 		8E20009222C35DCE00AD02FE /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20007D22C35DCE00AD02FE /* LayoutProxy.swift */; };
 		8E20009322C35DCE00AD02FE /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20007E22C35DCE00AD02FE /* Constraint.swift */; };
-		8E20009822C35F1A00AD02FE /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E20009722C35F1A00AD02FE /* UIColor+FlatColors.m */; };
 		8E20009B22C3879300AD02FE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20009A22C3879300AD02FE /* FirstViewController.swift */; };
 		8E20009E22C3896000AD02FE /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20009D22C3896000AD02FE /* Then.swift */; };
 		8E2000A022C3897C00AD02FE /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20009F22C3897C00AD02FE /* UIViewExtension.swift */; };
@@ -50,6 +49,7 @@
 		8E2000B622C392E700AD02FE /* Sunflower-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E2000AE22C3920400AD02FE /* Sunflower-Light.ttf */; };
 		8E2000B722C392E900AD02FE /* Sunflower-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E2000AD22C3920400AD02FE /* Sunflower-Medium.ttf */; };
 		8E2000C222C399F500AD02FE /* KCC-Kimhoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E2000C122C399F000AD02FE /* KCC-Kimhoon.ttf */; };
+		8E33199D22CE20D100974680 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33199C22CE20D100974680 /* Helpers.swift */; };
 		8EAD032322C4B1BF0043B437 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD032222C4B1BF0043B437 /* SecondViewController.swift */; };
 		8EAD032522C4DD4B0043B437 /* AnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD032422C4DD4B0043B437 /* AnswerModel.swift */; };
 		8EAD032722C4F1FE0043B437 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD032622C4F1FE0043B437 /* Launch Screen.storyboard */; };
@@ -90,8 +90,6 @@
 		8E20007C22C35DCE00AD02FE /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
 		8E20007D22C35DCE00AD02FE /* LayoutProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutProxy.swift; sourceTree = "<group>"; };
 		8E20007E22C35DCE00AD02FE /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
-		8E20009622C35F1A00AD02FE /* UIColor+FlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors.h"; sourceTree = "<group>"; };
-		8E20009722C35F1A00AD02FE /* UIColor+FlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors.m"; sourceTree = "<group>"; };
 		8E20009A22C3879300AD02FE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		8E20009D22C3896000AD02FE /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		8E20009F22C3897C00AD02FE /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
@@ -103,6 +101,7 @@
 		8E2000AD22C3920400AD02FE /* Sunflower-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sunflower-Medium.ttf"; sourceTree = "<group>"; };
 		8E2000AE22C3920400AD02FE /* Sunflower-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sunflower-Light.ttf"; sourceTree = "<group>"; };
 		8E2000C122C399F000AD02FE /* KCC-Kimhoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Kimhoon.ttf"; sourceTree = "<group>"; };
+		8E33199C22CE20D100974680 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		8EAD032222C4B1BF0043B437 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8EAD032422C4DD4B0043B437 /* AnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerModel.swift; sourceTree = "<group>"; };
 		8EAD032622C4F1FE0043B437 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -145,6 +144,7 @@
 				8EAD032622C4F1FE0043B437 /* Launch Screen.storyboard */,
 				8EAD032A22C5D9B00043B437 /* Data */,
 				8E20005422C35B9100AD02FE /* Info.plist */,
+				8E33199B22CE20AD00974680 /* Extensions */,
 				8E20006822C35D8F00AD02FE /* Other */,
 				8E20009922C3861500AD02FE /* Controller */,
 				8EAD032122C491800043B437 /* Library */,
@@ -194,23 +194,14 @@
 			path = Cartography;
 			sourceTree = "<group>";
 		};
-		8E20009422C35F0600AD02FE /* FlatColors */ = {
-			isa = PBXGroup;
-			children = (
-				8E20009622C35F1A00AD02FE /* UIColor+FlatColors.h */,
-				8E20009722C35F1A00AD02FE /* UIColor+FlatColors.m */,
-			);
-			path = FlatColors;
-			sourceTree = "<group>";
-		};
 		8E20009922C3861500AD02FE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				8EAD032822C5C6120043B437 /* LaunchViewController.swift */,
 				8E20009A22C3879300AD02FE /* FirstViewController.swift */,
 				8EAD032222C4B1BF0043B437 /* SecondViewController.swift */,
-				8E20005B22C35C7F00AD02FE /* CustomSwipeDemoViewController.swift */,
 				8E20005A22C35C7F00AD02FE /* ZLSwipeableViewController.swift */,
+				8E20005B22C35C7F00AD02FE /* CustomSwipeDemoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,11 +230,18 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		8E33199B22CE20AD00974680 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E33199C22CE20D100974680 /* Helpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		8EAD032122C491800043B437 /* Library */ = {
 			isa = PBXGroup;
 			children = (
 				8E20006922C35DC000AD02FE /* Cartography */,
-				8E20009422C35F0600AD02FE /* FlatColors */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -344,7 +342,6 @@
 				8E20008222C35DCE00AD02FE /* Edges.swift in Sources */,
 				8E20008F22C35DCE00AD02FE /* Constrain.swift in Sources */,
 				8EAD032922C5C6120043B437 /* LaunchViewController.swift in Sources */,
-				8E20009822C35F1A00AD02FE /* UIColor+FlatColors.m in Sources */,
 				8E20008422C35DCE00AD02FE /* View.swift in Sources */,
 				8E20008E22C35DCE00AD02FE /* ViewUtils.swift in Sources */,
 				8E20006722C35D8900AD02FE /* ViewManager.swift in Sources */,
@@ -356,6 +353,7 @@
 				8E20008822C35DCE00AD02FE /* Extensions.swift in Sources */,
 				8E20006622C35D8900AD02FE /* Scheduler.swift in Sources */,
 				8EAD032322C4B1BF0043B437 /* SecondViewController.swift in Sources */,
+				8E33199D22CE20D100974680 /* Helpers.swift in Sources */,
 				8E20007F22C35DCE00AD02FE /* Priority.swift in Sources */,
 				8E20009322C35DCE00AD02FE /* Constraint.swift in Sources */,
 				8E20009E22C3896000AD02FE /* Then.swift in Sources */,
