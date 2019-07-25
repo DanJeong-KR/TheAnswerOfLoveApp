@@ -1,6 +1,12 @@
 # <center>TheAnswerOfLoveApp</center>
 https://changsic.github.io/LoveAns
 
+### LoveAns-사랑의 해답 2019.06~2018.07
+* 유튜버 양팡의 인생의 해답 영상에서 영감을 받아 만든 앱
+* 개발과정에서 Anitmation을 집중적으로 학습.
+* UI를 단순화 시키기 위해 사용자가 직관적으로 이해할 수 있는 Animation을 고민하고 적용.
+* 사용기술 :CoreGraphics, CoreAnimatio, Motion(Proximity), AutoLayout, Github
+
 #### Demo 영상 (클릭시 YouTube 이동)
  [![LoveAns Demo](http://img.youtube.com/vi/psAsbYI8l7U/0.jpg)](https://youtu.be/psAsbYI8l7U "LoveAns Demo")
 
