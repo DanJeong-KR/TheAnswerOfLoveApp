@@ -12,7 +12,7 @@
 * UI를 단순화 시키기 위해 사용자가 직관적으로 이해할 수 있는 Animation을 고민하고 적용.
 * 사용기술 :CoreGraphics, CoreAnimatio, Motion(Proximity), AutoLayout, Github
 
-#### Demo 영상 (클릭시 YouTube 이동)
+#### Demo 영상
  [![LoveAns Demo](/assets/thumnail.png)](https://youtu.be/psAsbYI8l7U "LoveAns Demo")
 
 
