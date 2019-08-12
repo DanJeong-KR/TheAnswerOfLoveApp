@@ -13,7 +13,9 @@
 * 사용기술 :CoreGraphics, CoreAnimatio, Motion(Proximity), AutoLayout, Github
 
 #### Demo 영상
- [![LoveAns Demo](/assets/thumnail.png)](https://youtu.be/psAsbYI8l7U "LoveAns Demo")
+ [![LoveAns Demo](/assets/thumnail.png)](https://youtu.be/psAsbYI8l7U)
+ test
+ <a href="https://youtu.be/psAsbYI8l7U" target="_blank"><img src="/assets/thumnail.png"></a>
 
 사랑에 대해 고민하지 않는 사람이 있을까요?
 
