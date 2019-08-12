@@ -15,8 +15,6 @@
 #### Demo 영상
  [![LoveAns Demo](/assets/thumnail.png)](https://youtu.be/psAsbYI8l7U "LoveAns Demo")
 
-
-
 사랑에 대해 고민하지 않는 사람이 있을까요?
 
 사랑에 대해 걱정하지 않는 사람이 있을까요?
