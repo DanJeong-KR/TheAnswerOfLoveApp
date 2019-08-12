@@ -13,7 +13,7 @@
 * 사용기술 :CoreGraphics, CoreAnimatio, Motion(Proximity), AutoLayout, Github
 
 #### Demo 영상 (클릭시 YouTube 이동)
- [![LoveAns Demo](http://img.youtube.com/vi/psAsbYI8l7U/0.jpg)](https://youtu.be/psAsbYI8l7U "LoveAns Demo")
+ [![LoveAns Demo](assets/thumnail.png)](https://youtu.be/psAsbYI8l7U "LoveAns Demo")
 
 
 
