@@ -1,16 +1,24 @@
 # <center>TheAnswerOfLoveApp</center>
 
-이게 어떤 앱인지 더 명확하게 설명하기
-앱을 설계할 때 했던 플로우 차트나 스토리보드 구성 추가하기
-프로젝트에서 내가 맡은 부분 설명
-진행 중에 문제가 생겼을 때 해결한 경험
+* overview
+  * 이게 어떤 앱인지 더 명확하게 설명하기
+  * 기간
+  * 소속
+  * 역할
+  * 사용기술
+  * 스크린샷 (한눈에 보이게) 
+* 데모영상
+
+* 디자인 (앱을 설계할 때 했던 플로우 차트나 스토리보드 구성 추가하기)
+* 프로젝트에서 내가 맡은 부분 설명
+* 진행 중에 문제가 생겼을 때 어떻게 해결했는지
 
 
 ### LoveAns-사랑의 해답 2019.06~2018.07
 * 유튜버 양팡의 인생의 해답 영상에서 영감을 받아 만든 앱
 * 개발과정에서 Anitmation을 집중적으로 학습.
 * UI를 단순화 시키기 위해 사용자가 직관적으로 이해할 수 있는 Animation을 고민하고 적용.
-* 사용기술 :CoreGraphics, CoreAnimatio, Motion(Proximity), AutoLayout, Github
+* 사용기술 :CoreGraphics, CoreAnimation, Motion(Proximity), AutoLayout, Github
 
 #### Demo 영상
  <a href="https://youtu.be/psAsbYI8l7U" target="_blank"><img src="/assets/thumnail.png"></a>
