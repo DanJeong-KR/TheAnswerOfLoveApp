@@ -1,5 +1,10 @@
 # <center>TheAnswerOfLoveApp</center>
-https://changsic.github.io/LoveAns
+
+이게 어떤 앱인지 더 명확하게 설명하기
+앱을 설계할 때 했던 플로우 차트나 스토리보드 구성 추가하기
+프로젝트에서 내가 맡은 부분 설명
+진행 중에 문제가 생겼을 때 해결한 경험
+
 
 ### LoveAns-사랑의 해답 2019.06~2018.07
 * 유튜버 양팡의 인생의 해답 영상에서 영감을 받아 만든 앱
@@ -8,7 +13,8 @@ https://changsic.github.io/LoveAns
 * 사용기술 :CoreGraphics, CoreAnimatio, Motion(Proximity), AutoLayout, Github
 
 #### Demo 영상 (클릭시 YouTube 이동)
- [![LoveAns Demo](http://img.youtube.com/vi/psAsbYI8l7U/0.jpg)](https://youtu.be/psAsbYI8l7U "LoveAns Demo")
+ [![LoveAns Demo](images/thumnail.png)](https://youtu.be/psAsbYI8l7U "LoveAns Demo")
+
 
 사랑에 대해 고민하지 않는 사람이 있을까요?
 
