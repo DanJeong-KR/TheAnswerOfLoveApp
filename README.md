@@ -6,7 +6,7 @@
   * 소속
   * 역할
   * 사용기술
-  * 스크린샷 (한눈에 보이게) 
+  * 스크린샷 (한눈에 보이게)
 * 데모영상
 
 * 디자인 (앱을 설계할 때 했던 플로우 차트나 스토리보드 구성 추가하기)
@@ -15,13 +15,13 @@
 
 
 ### LoveAns-사랑의 해답 2019.06~2018.07
-* 유튜버 양팡의 인생의 해답 영상에서 영감을 받아 만든 앱
+* [유튜버 양팡의 인생의 해답 영상](https://youtu.be/XDIJ2DKhimw)에서 영감을 받아 만든 앱
 * 개발과정에서 Anitmation을 집중적으로 학습.
 * UI를 단순화 시키기 위해 사용자가 직관적으로 이해할 수 있는 Animation을 고민하고 적용.
 * 사용기술 :CoreGraphics, CoreAnimation, Motion(Proximity), AutoLayout, Github
 
 #### Demo 영상
- <a href="https://youtu.be/psAsbYI8l7U" target="_blank"><img src="/assets/thumnail.png"></a>
+ <a href="https://youtu.be/OouobgPOPD0" target="_blank"><img src="/assets/thumnail.png"></a>
 
 사랑에 대해 고민하지 않는 사람이 있을까요?
 
