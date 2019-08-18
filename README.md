@@ -5,21 +5,21 @@
 * 소속 : 개인프로젝트
 * 역할 : iOS 앱개발 및 배포
 * 사용기술 : Swift5, MotionProximity(아이폰 카메라 센서), CoreAnimation
-* 설계 (마인드맵)
+### 설계 (마인드맵)
 <a href="/assets/design.png" target="_blank"><img src="/assets/design.png"></a>
 
 
-* 결과
+### 스크린샷
 
 <a href="/assets/firstPage.gif" target="_blank"><img src="/assets/firstPage.gif" alt="My Image" width="250"></a>
 <a href="/assets/secondPage.gif" target="_blank"><img src="/assets/secondPage.gif" alt="My Image" width="250"></a>
 <a href="/assets/thirdPage.gif" target="_blank"><img src="/assets/thirdPage.gif" alt="My Image" width="250"></a>
 
-* 데모영상
+### 데모영상
 <a href="https://youtu.be/OouobgPOPD0" target="_blank"><img src="/assets/thumnail.png"></a>
 
 
-* 문제해결 아카이브
+### 문제해결 아카이브
   * 심장이 두근거리는 애니메이션을 어떻게 구현할까
     * AnimationKeyFrame 으로 두근거림의 디테일을 해결했다.
   * 사용자가 특별한 조언을 받는 느낌을 받아야 한다.
@@ -30,7 +30,9 @@
 
 
 
-* 해커톤에 프로젝트 출품당시 소개글
+
+
+### 해커톤에 프로젝트 출품당시 소개글
 
 사랑에 대해 고민하지 않는 사람이 있을까요?
 
