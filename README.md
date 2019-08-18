@@ -50,17 +50,17 @@
 
 made by [씨기](https://changsic.github.io/), [어색혜지자](https://github.com/Jeon-heaji)
 
-* # 먼저 당신의 고민을 생각하세요.
+* ### 먼저 당신의 고민을 생각하세요.
 
 <a href="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" alt="My Image" width="250"></a>
 
 
-* # <center>생각을 정리했으면 손만 흔들어 주세요!</center>
+* ### <center>생각을 정리했으면 손만 흔들어 주세요!</center>
 
 <a href="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" alt="My Image" width="250"></a>
 
 
-* # <center>그러면 신기한 마법의 책은 당신에게 적절한 조언을 줄 것입니다.</center>
+* ### <center>그러면 신기한 마법의 책은 당신에게 적절한 조언을 줄 것입니다.</center>
 
 <a href="https://user-images.githubusercontent.com/38423205/60311906-2f57bf00-9994-11e9-9680-82b2d32476d9.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311906-2f57bf00-9994-11e9-9680-82b2d32476d9.gif" alt="My Image" width="250"></a>
 
