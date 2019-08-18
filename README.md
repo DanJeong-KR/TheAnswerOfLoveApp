@@ -18,6 +18,7 @@
 ### 데모영상
 <a href="https://youtu.be/OouobgPOPD0" target="_blank"><img src="/assets/thumnail.png"></a>
 
+<br>
 
 ### 문제해결 아카이브
   * 심장이 두근거리는 애니메이션을 어떻게 구현할까
@@ -30,7 +31,7 @@
 
 
 
-
+---
 
 ### 해커톤에 프로젝트 출품당시 소개글
 
@@ -44,24 +45,19 @@
 
 made by [씨기](https://changsic.github.io/), [어색혜지자](https://github.com/Jeon-heaji)
 
----
-
 * # 먼저 당신의 고민을 생각하세요.
 
 <a href="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" alt="My Image" width="250"></a>
 
----
 
 * # <center>생각을 정리했으면 손만 흔들어 주세요!</center>
 
 <a href="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" alt="My Image" width="250"></a>
 
----
 
 * # <center>그러면 신기한 마법의 책은 당신에게 적절한 조언을 줄 것입니다.</center>
 
 <a href="https://user-images.githubusercontent.com/38423205/60311906-2f57bf00-9994-11e9-9680-82b2d32476d9.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311906-2f57bf00-9994-11e9-9680-82b2d32476d9.gif" alt="My Image" width="250"></a>
 
----
 
 ### <center>마음속에서 생각한 그 분에게 꽃을 보내세요 💐</center>
