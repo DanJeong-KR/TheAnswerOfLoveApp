@@ -7,7 +7,10 @@
 * 사용기술 : Swift5, MotionProximity(아이폰 카메라 센서), CoreAnimation
 * 설계 (마인드맵)
 <a href="/assets/design.png" target="_blank"><img src="/assets/design.png"></a>
+
+
 * 결과
+
 <a href="/assets/firstPage.gif" target="_blank"><img src="/assets/firstPage.gif" alt="My Image" width="250"></a>
 <a href="/assets/secondPage.gif" target="_blank"><img src="/assets/secondPage.gif" alt="My Image" width="250"></a>
 <a href="/assets/thirdPage.gif" target="_blank"><img src="/assets/thirdPage.gif" alt="My Image" width="250"></a>
