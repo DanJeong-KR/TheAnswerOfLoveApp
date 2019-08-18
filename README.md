@@ -7,8 +7,8 @@
 * 사용기술 : Swift5, Motion(아이폰 센서), CoreAnimation
 * 스크린샷 (한눈에 보이게)
 
-* <a href="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" alt="My Image" width="300"></a>
-* <a href="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" alt="My Image" width="300"></a>
+<a href="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" alt="My Image" width="300"></a>
+<a href="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" alt="My Image" width="300"></a>
 
 
 * 데모영상
