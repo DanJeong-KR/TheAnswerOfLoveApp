@@ -4,16 +4,19 @@
 * 기간 : 2019.06 ~ 현재
 * 소속 : 개인프로젝트
 * 역할 : iOS 앱개발 및 배포
-* 사용기술 : Swift5, Motion(아이폰 센서), CoreAnimation
-* 스크린샷 (한눈에 보이게)
+* 사용기술 : Swift5, MotionProximity(아이폰 카메라 센서), CoreAnimation
 
-<a href="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" alt="My Image" width="250"></a>
-<a href="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" alt="My Image" width="250"></a>
-<a href="https://user-images.githubusercontent.com/38423205/60311906-2f57bf00-9994-11e9-9680-82b2d32476d9.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311906-2f57bf00-9994-11e9-9680-82b2d32476d9.gif" alt="My Image" width="250"></a>
+<a href="/assets/firstPage.gif" target="_blank"><img src="/assets/firstPage.gif" alt="My Image" width="250"></a>
+<a href="/assets/secondPage.gif" target="_blank"><img src="/assets/secondPage.gif" alt="My Image" width="250"></a>
+<a href="/assets/thirdPage.gif" target="_blank"><img src="/assets/thirdPage.gif" alt="My Image" width="250"></a>
+
+
 
 * 데모영상
+<a href="https://youtu.be/OouobgPOPD0" target="_blank"><img src="/assets/thumnail.png"></a>
 
-* 디자인 (앱을 설계할 때 했던 플로우 차트나 스토리보드 구성 추가하기)
+* 설계 (마인드맵)
+<a href="/assets/design" target="_blank"><img src="/assets/design"></a>
 * 프로젝트에서 내가 맡은 부분 설명
 * 진행 중에 문제가 생겼을 때 어떻게 해결했는지
 
@@ -24,8 +27,8 @@
 * UI를 단순화 시키기 위해 사용자가 직관적으로 이해할 수 있는 Animation을 고민하고 적용.
 * 사용기술 :CoreGraphics, CoreAnimation, Motion(Proximity), AutoLayout, Github
 
-#### Demo 영상
- <a href="https://youtu.be/OouobgPOPD0" target="_blank"><img src="/assets/thumnail.png"></a>
+
+
 
 사랑에 대해 고민하지 않는 사람이 있을까요?
 
@@ -41,19 +44,19 @@ made by [씨기](https://changsic.github.io/), [어색혜지자](https://github.
 
 * # 먼저 당신의 고민을 생각하세요.
 
-![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif)
+<a href="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" alt="My Image" width="250"></a>
 
 ---
 
 * # <center>생각을 정리했으면 손만 흔들어 주세요!</center>
 
-![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif)
+<a href="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" alt="My Image" width="250"></a>
 
 ---
 
 * # <center>그러면 신기한 마법의 책은 당신에게 적절한 조언을 줄 것입니다.</center>
 
-![ezgif com-video-to-gif (3)](https://user-images.githubusercontent.com/38423205/60311906-2f57bf00-9994-11e9-9680-82b2d32476d9.gif)
+<a href="https://user-images.githubusercontent.com/38423205/60311906-2f57bf00-9994-11e9-9680-82b2d32476d9.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311906-2f57bf00-9994-11e9-9680-82b2d32476d9.gif" alt="My Image" width="250"></a>
 
 ---
 
