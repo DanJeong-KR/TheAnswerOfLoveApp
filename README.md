@@ -1,14 +1,15 @@
 # <center>TheAnswerOfLoveApp</center>
 이성적이고 현명한 사람도 사랑 앞에서는 판단력이 흐려지기 마련입니다. 그때 적절한 조언을 주기 위한 앱. 친구들끼리 혹은, 술자리에서 재미로 해볼 수 있는 가벼운 게임 같은 앱. 타로점을 볼 때처럼 조언이 찰떡같은 것이 특징!
 (Ex : 내가 그 사람을 좋아하는 건지 잘 모르겠어요 / Ans : 심장의 두근거림을 체크하세요.)
+* 기간 : 2019.06 ~ 현재
+* 소속 : 개인프로젝트
+* 역할 : iOS 앱개발 및 배포
+* 사용기술 : Swift5, Motion(아이폰 센서), CoreAnimation
+* 스크린샷 (한눈에 보이게)
+<a href="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60310990-1fd67700-9990-11e9-861a-419e90ce1672.gif" alt="My Image" width="400"></a>
+<a href="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" target="_blank"><img src="https://user-images.githubusercontent.com/38423205/60311468-51e8d880-9992-11e9-99cd-5f4cc3364117.gif" alt="My Image" width="400"></a>
 
-* overview
-  * 이게 어떤 앱인지 더 명확하게 설명하기
-  * 기간
-  * 소속
-  * 역할
-  * 사용기술
-  * 스크린샷 (한눈에 보이게)
+
 * 데모영상
 
 * 디자인 (앱을 설계할 때 했던 플로우 차트나 스토리보드 구성 추가하기)
