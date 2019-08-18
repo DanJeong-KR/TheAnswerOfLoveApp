@@ -46,7 +46,7 @@
 
 우리에게 적절한 조언이 필요할 때
 
-## <center>Love Ans 앱이 당신을 도와드립니다.</center>
+ <center>**Love Ans 앱이 당신을 도와드립니다.**</center>
 
 made by [씨기](https://changsic.github.io/), [어색혜지자](https://github.com/Jeon-heaji)
 
