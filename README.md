@@ -16,7 +16,7 @@
 <a href="https://youtu.be/OouobgPOPD0" target="_blank"><img src="/assets/thumnail.png"></a>
 
 * 설계 (마인드맵)
-<a href="/assets/design" target="_blank"><img src="/assets/design"></a>
+<a href="/assets/design.png" target="_blank"><img src="/assets/design.png"></a>
 * 프로젝트에서 내가 맡은 부분 설명
 * 진행 중에 문제가 생겼을 때 어떻게 해결했는지
 
