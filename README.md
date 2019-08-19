@@ -8,7 +8,6 @@
 ### 설계 (마인드맵)
 <a href="/assets/design.pdf" target="_blank"><img src="/assets/design.png"></a>
 
-
 ### 스크린샷
 
 <a href="/assets/firstPage.gif" target="_blank"><img src="/assets/firstPage.gif" alt="My Image" width="250"></a>
