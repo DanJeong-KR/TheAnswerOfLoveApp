@@ -6,7 +6,7 @@
 * 역할 : iOS 앱개발 및 배포
 * 사용기술 : Swift5, MotionProximity(아이폰 카메라 센서), CoreAnimation
 ### 설계 (마인드맵)
-<a href="/assets/design.pdf" target="_blank"><img src="/assets/design.png"></a>
+<a href="/assets/design.pdf" target="_blank"><img src="/assets/design.pdf"></a>
 
 ### 스크린샷
 
