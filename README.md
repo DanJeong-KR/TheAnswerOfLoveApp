@@ -5,8 +5,17 @@
 * 소속 : 개인프로젝트
 * 역할 : iOS 앱개발 및 배포
 * 사용기술 : Swift5, MotionProximity(아이폰 카메라 센서), CoreAnimation
+
 ### 설계 (마인드맵)
 <a href="/assets/design.pdf" target="_blank"><img src="/assets/design.png"></a>
+
+### [Commit Message 규칙](https://changsic.github.io/CommitMessage/)
+* `feat` : 새로운 기능 추가
+* `fix` : 버그 수정
+* `docs` : 문서 수정
+* `style` : 파일 그룹화, 세미콜론 누락, 코드 변경이 없는 경우
+* `refactor` : 코드 리펙토링
+* `test` : 테스트 코드, 리펙토링 테스트 코드 추가
 
 ### 스크린샷
 
